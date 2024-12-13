@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6065425387563976722}
   m_Layer: 0
-  m_Name: CheckGround
+  m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -221,6 +221,11 @@ MonoBehaviour:
   speed: 7
   jumpForce: 5
   isGrounded: 0
+  groundCheck: {fileID: 741293579963224095}
+  groundCheckRadius: 0.1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!114 &4406386169077853787
 MonoBehaviour:
   m_ObjectHideFlags: 0
